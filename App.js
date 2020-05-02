@@ -10,11 +10,22 @@ class App extends React.Component {
       <h2> {this.props.contentProp}</h2>
          </div>
 
-      )
+      );
+
+
+   }
+
+}
+
+   App.defaultProps = {
+      headerProp: "This is heaer Prop....",
+      contentProp: "This is content prop..."
    }
 
 
 
 
+   export default App;
 
-export default App;
+
+
