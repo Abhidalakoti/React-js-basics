@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 
 
@@ -14,7 +15,7 @@ class App extends React.Component {
       <h3>String: {this.props.propString}</h3>
       <h3>Object:{this.props.propObject.objectName1}</h3>
       <h3>Object:{this.props.propObject.objectName2}</h3>
-      <h3>Object:{this.props.propObject.objectName3}</h3>
+      <h3>Object:{this.props.propbranch -aject.objectName3}</h3>
 </div>
       );
    }
